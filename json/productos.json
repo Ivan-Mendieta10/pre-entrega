@@ -2,49 +2,49 @@
   {
     "id": "1",
     "nombre": "Camiseta Amarilla",
-    "img": "../image/indumentaria/Camiseta amarilla.png",
+    "img": "image/indumentaria/Camiseta amarilla.png",
     "precio": 45.0
   },
   {
     "id": "2",
     "nombre": "Camiseta Azul",
-    "img": "../image/indumentaria/Camiseta Azul.png",
+    "img": "image/indumentaria/Camiseta Azul.png",
     "precio": 50.0
   },
   {
     "id": "3",
     "nombre": "Camiseta Quilmes",
-    "img": "../image/indumentaria/Camiseta quilmes.jpg",
+    "img": "image/indumentaria/Camiseta quilmes.jpg",
     "precio": 50.0
   },
   {
     "id": "4",
     "nombre": "Camiseta Quilmes2",
-    "img": "../image/indumentaria/Camiseta Quilmes2.png",
+    "img": "image/indumentaria/Camiseta Quilmes2.png",
     "precio": 50.0
   },
   {
     "id": "5",
     "nombre": "Camiseta Suplente Amarilla",
-    "img": "../image/indumentaria/Camiseta Suplente Amarilla.jpeg",
+    "img": "image/indumentaria/Camiseta Suplente Amarilla.jpeg",
     "precio": 48.0
   },
   {
     "id": "6",
     "nombre": "Buzo Azul",
-    "img": "../image/indumentaria/Buzo Azul.jpg",
+    "img": "image/indumentaria/Buzo Azul.jpg",
     "precio": 40.0
   },
   {
     "id": "7",
     "nombre": "Campera",
-    "img": "../image/indumentaria/Campera.jpeg",
+    "img": "image/indumentaria/Campera.jpeg",
     "precio": 60.0
   },
   {
     "id": "8",
     "nombre": "Camperon",
-    "img": "../image/indumentaria/Camperon.jpeg",
+    "img": "image/indumentaria/Camperon.jpeg",
     "precio": 80.0
   }
 ]
