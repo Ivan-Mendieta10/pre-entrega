@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const carrito = obtenerCarrito();
   actualizarContador(carrito);
 
-  fetch("./json/productos.json")
+  fetch("../json/productos.json")
     .then((res) => {
       if (!res.ok) {
         throw new Error(`Error HTTP status: ${res.status}`);
