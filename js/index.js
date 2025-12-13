@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const carrito = obtenerCarrito();
   actualizarContador(carrito);
 
-  fetch("../json/productos.json")
+  fetch("json/productos.json")
     .then((res) => {
       if (!res.ok) {
         throw new Error(`Error HTTP status: ${res.status}`);
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         tarjeta.classList.add("tarjeta-producto");
 
         const img = document.createElement("img");
-        img.src = `../${producto.img}`;
+        img.src = producto.img;
         img.alt = producto.nombre;
 
         const titulo = document.createElement("h3");
