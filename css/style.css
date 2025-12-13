@@ -128,6 +128,7 @@ footer nav ul li a {
 
 .titulo-home {
   margin: 3rem 0;
+  color: gainsboro;
 }
 
 .titulo-productos {
@@ -138,8 +139,9 @@ footer nav ul li a {
 .parrafo {
   width: 80%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 3rem;
+  color: #f9be3d;
 }
 
 .contenedor-tarjetas {
@@ -149,7 +151,7 @@ footer nav ul li a {
   gap: 2rem;
 }
 
-.card {
+.tarjeta-producto {
   background: gainsboro;
   color: black;
 
@@ -165,10 +167,57 @@ footer nav ul li a {
   gap: 1rem;
 }
 
-.card img {
+.marco-fieldset {
+  padding: 2rem;
+  margin: auto;
+  margin-top: 1%;
+  background: #24303c;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: #f9be3d;
+  border-color: #f9be3d;
+  box-shadow: 7px 13px 37px #000;
+}
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #f9be3d;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.marco-fieldset legend {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  display: grid;
+  place-items: center;
+}
+
+.seccion-button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.tarjeta-producto img {
   width: 100%;
 }
 
+.acciones-carrito {
+  padding: 3rem;
+}
+
+.btn-vaciar-carrito {
+  padding: 2rem;
+}
 /*-------------------------------------------*/
 /*                MEDIA                      */
 /*-------------------------------------------*/

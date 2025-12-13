@@ -17,9 +17,9 @@
       <div class="div-log">
         <a class="logo" href="../index.html"
           ><img
-            width="100"
-            height="100"
-            src="../image/logo/boca_juniors_1_1024x768.jpg"
+            width="105"
+            height="115"
+            src="../image/logo/escudo.jpg"
             alt="logo"
         /></a>
       </div>
@@ -36,16 +36,89 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <h1 class="titulo-home">BOCA JUNIORS</h1>
+      <div>
+        <img
+          src="../image/logo/escudo.jpg"
+          alt="escudo de Boca Juniors"
+          width="105"
+          height="115"
+        />
+      </div>
+      <div><p>⭐⭐⭐</p></div>
+      <h1 class="titulo-home">FORMULARIO</h1>
+      <form action="https://formspree.io/f/xnnbkwpb" method="POST">
+        <fieldset class="marco-fieldset">
+          <legend class="legend">Informacion personal</legend>
+          <label for="nombre">Nombre</label>
+          <input
+            class="controls"
+            id="nombre"
+            name="nombre"
+            type="text"
+            placeholder="Ingrese su nombre..."
+            required
+          />
+
+          <label for="email">Correo electronico</label>
+          <input
+            class="controls"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Ingrese su correo..."
+            required
+          />
+        </fieldset>
+
+        <fieldset class="marco-fieldset">
+          <legend class="legend">Motivo y mensaje</legend>
+          <label for="motivo">Motivo</label>
+          <select id="motivo" name="motivo" class="controls">
+            <option value="">Seleccione una opcion</option>
+            <option value="consulta">Consulta</option>
+            <option value="soporte">Soporte</option>
+            <option value="otros">Otros</option>
+          </select>
+
+          <div class="textarea">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              rows="4"
+              cols="30"
+              placeholder="Hola. Me comunico por..."
+            >
+            </textarea>
+          </div>
+        </fieldset>
+
+        <section class="seccion-button">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </section>
+      </form>
+
+      <br />
+    </main>
     <footer>
       <p>Sitio realizado por Ivan Mendieta.</p>
       <p>&copy; 2025 Mi E-Commerce</p>
 
       <nav>
         <ul>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Facebook</a></li>
-          <li><a href="">Tik-Tok</a></li>
+          <li><a href="https://www.instagram.com/bocajrs/">Instagram</a></li>
+          <li>
+            <a href="https://www.facebook.com/share/1JpnEEFvKL/">Facebook</a>
+          </li>
+          <li>
+            <a
+              href="https://www.tiktok.com/@bocajuniors?is_from_webapp=1&sender_device=pc"
+              >Tik-Tok</a
+            >
+          </li>
         </ul>
       </nav>
     </footer>
